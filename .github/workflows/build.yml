@@ -62,6 +62,9 @@ jobs:
           - {"platform": "t31", "release": "lite"}
           - {"platform": "t31", "release": "ultimate"}
 
+          # Omlet [T31]
+          - {"platform": "t31glibc", "release": "omletlite"}
+
           # Ingenic [T40]
           - {"platform": "t40", "release": "lite"}
           - {"platform": "t40", "release": "ultimate"}
