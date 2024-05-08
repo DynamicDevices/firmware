@@ -1,5 +1,8 @@
 name: build
 on:
+  push:
+    branches:
+      - ajl/omlet-package-support
   pull_request:
     branches:
       - master
